@@ -1,8 +1,6 @@
-import com.sun.xml.internal.ws.handler.HandlerException;
 import halpers.Helper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -11,7 +9,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.FactoryFramesPage;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class FramesHomeWork {
